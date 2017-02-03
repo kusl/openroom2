@@ -3,5 +3,10 @@
     "doctrine/orm": "^2.5",
     "phpunit/phpunit": "^6.0",
     "monolog/monolog": "^1.22"
+  },
+  "autoload": {
+    "psr-4": {
+      "src\\": "src"
+    }
   }
 }
