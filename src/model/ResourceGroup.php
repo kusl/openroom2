@@ -8,7 +8,7 @@
  */
 
 /**
- * @Entity @Table(name="Users")
+ * @Entity @Table(name="ResourceGroups")
  **/
 class ResourceGroup
 {
