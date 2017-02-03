@@ -33,24 +33,24 @@ class User
      */
     protected $email;
     /**
-     * @Column(name="last_login", type="datetime")
+     * @Column(type="datetime")
      */
-    protected $last_login;
+    protected $lastLogin;
     /**
-     * @Column(name="is_active", type="boolean")
+     * @Column(type="boolean")
      */
-    protected $is_active;
+    protected $isActive;
     /**
-     * @Column(name="is_administrator", type="boolean")
+     * @Column(type="boolean")
      */
-    protected $is_administrator;
+    protected $isAdministrator;
     /**
-     * @Column(name="is_reporter", type="boolean")
+     * @Column(type="boolean")
      */
-    protected $is_reporter;
+    protected $isReporter;
     /**
-     * @Column(name="is_banned", type="boolean")
+     * @Column(type="boolean")
      */
-    protected $is_banned;
+    protected $isBanned;
 
 }
