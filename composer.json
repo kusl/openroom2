@@ -1,5 +1,7 @@
 {
   "require": {
-    "doctrine/orm": "^2.5"
+    "doctrine/orm": "^2.5",
+    "phpunit/phpunit": "^6.0",
+    "monolog/monolog": "^1.22"
   }
 }
