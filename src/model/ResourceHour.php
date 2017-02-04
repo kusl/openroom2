@@ -17,5 +17,26 @@ class ResourceHour
      * @var int
      */
     protected $id;
-
+    protected $resource;
+    /**
+     * @Column(type="string")
+     * @var string
+     */
+    protected $status;
+    /**
+     * @Column(type="datetime")
+     */
+    protected $startDate;
+    /**
+     * @Column(type="datetime")
+     */
+    protected $endDate;
+    /**
+     * @Column(type="datetime")
+     */
+    protected $startTime;
+    /**
+     * @Column(type="datetime")
+     */
+    protected $endTime;
 }

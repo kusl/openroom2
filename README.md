@@ -13,4 +13,5 @@ This is the case with the Bug being at the owning side of the relation.
 
 So in another case, we have the relation between a room and its room hours. 
 
-Room has id, name, group, position, capacity, description, and resource hours. 
+Resource has id, name, group, position, capacity, description, and resource hours. 
+ResourceHours has id, resource id, status, start date, end date, start time, end time. 
