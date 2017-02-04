@@ -4,13 +4,13 @@
  * Created by PhpStorm.
  * User: kus
  * Date: 2/3/17
- * Time: 11:08 AM
+ * Time: 12:10 PM
  */
 
 /**
- * @Entity @Table(name="ResourceGroups")
+ * @Entity @Table(name="Resource")
  **/
-class ResourceGroup
+class Resource
 {
     /**
      * @Id @GeneratedValue @Column(type="integer")
@@ -27,10 +27,20 @@ class ResourceGroup
      * @var string
      */
     protected $description;
-    protected $resources;
+    /**
+     * @var
+     */
+    protected $group;
+    /**
+     * @Column(type="integer")
+     * @var int
+     */
+    protected $position;
+    /**
+     * @Column(type="integer")
+     * @var int
+     */
+    protected $capacity;
+    protected $resourceGroup;
 
-    public function __construct()
-    {
-        $this->resources = new \Doctrine\Common\Collections\ArrayCollection();
-    }
 }
