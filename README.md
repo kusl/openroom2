@@ -15,3 +15,6 @@ So in another case, we have the relation between a room and its room hours.
 
 Resource has id, name, group, position, capacity, description, and resource hours. 
 ResourceHours has id, resource id, status, start date, end date, start time, end time. 
+
+One idea is to keep things simple and not deviate too much from the existing design in 1.4. 
+
