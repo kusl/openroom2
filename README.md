@@ -21,3 +21,9 @@ One idea is to keep things simple and not deviate too much from the existing des
 
 Another is to start with something that barely works, and is inefficient but leaves options open. 
 In any case, I need to know what assumptions I make in my code.
+
+Rooms 
+Id      Name        Description     GroupID     Position        Capacity
+
+RoomHours 
+ID      RoomId      StartDate       EndDate     StartTime       EndTime     Status 
